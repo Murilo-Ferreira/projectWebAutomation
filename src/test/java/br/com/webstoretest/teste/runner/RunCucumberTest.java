@@ -1,4 +1,4 @@
-package br.com.inmetrics.teste.runner;
+package br.com.webstoretest.teste.runner;
 
 import org.junit.runner.RunWith;
 
