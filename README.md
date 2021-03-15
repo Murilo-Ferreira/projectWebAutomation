@@ -1,4 +1,12 @@
-## Teste 
+## Teste
+
+Realizar uma compra com sucesso
+
+- Foi realizado o caminho feliz
+
+Bônus:
+- Procurar um item que não tem na loja virtual
+- Selecionar um produto válido e cadastrar um novo Cliente com informações faltantes
 
 ## Tecnologias e patterns usados
 - Java
@@ -19,6 +27,8 @@
 5 - Selecione o browser no arquivo Config.java
 
 6 - Coloque a(s) tag(s) que deseja executar no RunCucumberTest.java e execute-o como Junit Test
+
+7 - Altere a variável "email" na classe NewRegisterPage.java a cada ciclo de testes, devido ao site manter um banco de dados ativo
 
 ---
 
