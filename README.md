@@ -2,11 +2,11 @@
 
 Realizar uma compra com sucesso
 
-- Foi realizado o caminho feliz
+- Foi realizado caso procedimento para o teste bem sucedido 
 
 Bônus:
-- Procurar um item que não tem na loja virtual
-- Selecionar um produto válido e cadastrar um novo Cliente com informações faltantes
+- Procurar um item que não consta na loja virtual e verificar se é enviado alerta de erro
+- Selecionar um produto válido e preencher o form de novo cliente incompleto e verificar mensagem de erro
 
 ## Tecnologias e patterns usados
 - Java
