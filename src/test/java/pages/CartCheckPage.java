@@ -14,12 +14,10 @@ public class CartCheckPage extends BasePage{
 	
 	public String getfirstproductText() {
 		return this.getElementText(cartcheckMap.firstcartproduct);
-	}
+	}	
 	
 	public void confirmCheckout() {
 		this.clickOn(cartcheckMap.searchButton);
 	}
-	 
-	
 
 }

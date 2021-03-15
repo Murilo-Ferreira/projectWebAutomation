@@ -25,17 +25,5 @@ public class ProductPage extends BasePage{
 	public void proceedtoCheckout() {
 		this.clickOn(productMap.proceedtoCheckout);	
 	}
-	
-	public void forcedWait(int time) {
-		time = 10; 
-		
-		try {
-			System.out.println("Waiting for %d seconds..."+time);
-			Thread.sleep(time*1000);
-		} catch (Exception e) {
-			System.out.println(e.getMessage());
-		}
-	}
-	
 
 }

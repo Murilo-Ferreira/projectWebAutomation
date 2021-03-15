@@ -17,14 +17,18 @@
 ## (Comments)
 #Sample Feature Definition Template
 
-@Shopping
-Feature: Online Shopping
+@OnlinePurchase
+Feature: Purchase an item in a web store registering a new User account 
+and verifying all steps to buy correctly 				
 
   @sc001
-  Scenario: Scenario001
-    Given Choose any product in the webstore
-    And Add a product in your Cart
-    And Proceed to checkout
+  Scenario: Successul item purchase
+  					Register a new User account
+						Verify all steps to buy correctly
+						 
+    Given I choose a Blouse in the web store
+    And Add the product in your Cart
+    And I proceed to checkout
     Then Validate the product was added correctly and proceed to checkout if the product is correct
     And Create an account filling in all requireds fields
     Then Validate the adress and proceed
@@ -33,8 +37,17 @@ Feature: Online Shopping
     And Choose the payment method
     Then Confirm the purchase and validate that it has been successfully completed
     
-      
+  @sc002
+  Scenario: Unsuccessul item purchase  
+    Given Search a product that don't existe in web store
+    Then Validate the product don't exist    
     
-    
-    
+   @sc003
+  Scenario: Validate unfinished form  
+    Given I choose a Blouse in the web store
+    And Add the product in your Cart
+    And I proceed to checkout
+    Then Validate the product was added correctly and proceed to checkout if the product is correct
+    And Create an account without filling in all requireds fields 
+    Then I should see an error message with required fields 
        

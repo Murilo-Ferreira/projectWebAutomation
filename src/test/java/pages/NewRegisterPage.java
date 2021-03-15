@@ -6,7 +6,7 @@ import maps.NewRegisterMap;
 
 public class NewRegisterPage extends BasePage{
 	
-	String email = "maria3@mail.com";//change email address for every cycle
+	String email = "maria6@mail.com";//change email address for every cycle
 	String firstName = "Maria";
 	String lastName = "Souza";
 	String password = "asdf12345";

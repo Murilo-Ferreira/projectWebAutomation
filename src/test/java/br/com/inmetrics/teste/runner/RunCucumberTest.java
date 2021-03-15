@@ -15,7 +15,7 @@ import cucumber.api.junit.Cucumber;
 		strict = false, 
 		glue = { "steps" },
 		features = "src/test/resources/features/",
-		tags = {"@Shopping"})
+		tags = {"@OnlinePurchase"})
 public class RunCucumberTest {
 
 }
